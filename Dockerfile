@@ -1,4 +1,5 @@
 FROM openjdk:8-jdk-alpine
+LABEL maintainer "brett.wooldridge@gmail.com"
 
 RUN apk add --update --no-cache \
                libstdc++ \
